@@ -1,0 +1,28 @@
+{
+    "name": "phprise/common-trait",
+    "description": "Common traits for reusable implementations based on OTAKU philosophy",
+    "type": "library",
+    "require": {
+        "php": "^8.4",
+        "phprise/common-contract": "^1.0",
+        "phprise/common-value-object": "^1.0",
+        "phprise/common-cast": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5",
+        "vimeo/psalm": "^6.14"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phprise\\Common\\Trait\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Esdras Schonevald",
+            "email": "esdras.schonevald@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
